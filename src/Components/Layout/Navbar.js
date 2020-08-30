@@ -1,4 +1,5 @@
 import React from "react"
+import {Link} from 'react-router-dom'
 import "bootstrap/dist/css/bootstrap.min.css"
 
 
@@ -7,7 +8,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 export default function Navbar() {
      return (
           <nav className="navbar navbar-expand-lg navbar-light bg-dark">
-          <a className="navbar-brand text-light" href="#"><i class="fab fa-react"></i></a>
+          <Link className="navbar-brand text-light" href="#"><i class="fab fa-react"></i></Link>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -15,15 +16,15 @@ export default function Navbar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav m-auto">
               <li className="nav-item active">
-                <a className="nav-link text-light text-uppercase ml-5" href="#">
+                <Link to='/' className="nav-link text-light text-uppercase ml-5">
                      Home&nbsp;<i class="fas fa-home"></i> 
-                <span className="sr-only">(current)</span></a>
+                <span className="sr-only">(current)</span></Link>
               </li>
               <li className="nav-item active">
-                <a className="nav-link text-light text-uppercase ml-5" href="#">News <span className="sr-only">(current)</span></a>
+                <Link to='/news' className="nav-link text-light text-uppercase ml-5">News <span className="sr-only">(current)</span></Link>
               </li>
               <li className="nav-item active">
-                <a className="nav-link text-light text-uppercase ml-5" href="#">Contact Us <span className="sr-only">(current)</span></a>
+                <Link to='/contact' className="nav-link text-light text-uppercase ml-5" >Contact Us <span className="sr-only">(current)</span></Link>
               </li>
               
             </ul>
