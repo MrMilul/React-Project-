@@ -10,7 +10,7 @@ export default function Footer() {
                     <div className="col-sm-6 col-md-4" >
                          <h4>Contact Us</h4>
                          <ul className='list-unstyled'>
-                             <li> <i class="fas fa-phone-volume"></i>&nbsp;+98745512</li>
+                              <li><i class="fas fa-phone-volume"></i>&nbsp;+98745512</li>
                               <li><i class="far fa-envelope"></i>&nbsp;examole@company.com</li>
                               <li><i class="fas fa-street-view"></i>&nbsp;<a href='#'>Address</a></li>
                               <li><i class="fas fa-question"></i>&nbsp;<a href='#'>FQA</a></li>
