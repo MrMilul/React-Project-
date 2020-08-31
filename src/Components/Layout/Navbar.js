@@ -8,8 +8,8 @@ import "bootstrap/dist/css/bootstrap.min.css"
 export default function Navbar() {
      return (
           <nav className="navbar navbar-expand-lg navbar-light bg-dark">
-          <Link className="navbar-brand text-light" href="#"><i class="fab fa-react"></i></Link>
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <Link className="navbar-brand text-light" to="#"><i className="fab fa-react"></i></Link>
+          <button className="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
         
@@ -17,7 +17,7 @@ export default function Navbar() {
             <ul className="navbar-nav m-auto">
               <li className="nav-item active">
                 <Link to='/' className="nav-link text-light text-uppercase ml-5">
-                     Home&nbsp;<i class="fas fa-home"></i> 
+                     Home&nbsp;<i className="fas fa-home"></i> 
                 <span className="sr-only">(current)</span></Link>
               </li>
               <li className="nav-item active">

@@ -2,14 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+
 import {BrowserRouter} from 'react-router-dom'
 
+import {InfoProvider} from './Components/context';
+
 ReactDOM.render(
-  <React.StrictMode>
+  
+  <InfoProvider>
     <BrowserRouter>
       <App />
     </BrowserRouter>
-  </React.StrictMode>,
+  </InfoProvider>,
+  
   document.getElementById('root')
 );
 
