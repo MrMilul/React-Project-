@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {placeInfo,news} from './Data'
+import {placeInfo,news,detailInfo,reviews} from './Data'
 
 const InfoContext = React.createContext()
 
@@ -7,15 +7,19 @@ class InfoProvider extends Component {
      constructor(){
           super();
           this.state = {
-               place: placeInfo, 
-               news: news
+               info: placeInfo, 
+               news: news,
+               details: detailInfo,
+               review: reviews,
           }
      }
      render() {
           return (
                <InfoContext.Provider value={{
-                    place: this.state.place, 
-                    news: this.state.news
+                    info: this.state.info, 
+                    news: this.state.news,
+                    details: this.state.details,
+                    review: this.state.review
                     }}>
                     {this.props.children}
                </InfoContext.Provider>

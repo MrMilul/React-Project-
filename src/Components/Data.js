@@ -1,12 +1,12 @@
 export const placeInfo = [
      {
           id: 1,
-          headertilte: 'header title...', 
-          headersubtilte: 'header subtitle...', 
-          headetext: 'header text...',
-          title: 'title ...', 
+          headertilte: 'header title 1...', 
+          headersubtilte: 'header subtitle 1...', 
+          headetext: 'header text 1...',
+          title: 'title1 .', 
           description: 'description ...',
-          img: './img/firstpic.jpg',
+          img: 'project1/src/Components/img/firstavatar.png',
           maps: 'Address'
      },
      {
@@ -31,6 +31,26 @@ export const placeInfo = [
      },
      {
           id: 4,
+          headertilte: 'header title...', 
+          headersubtilte: 'header subtitle...', 
+          headetext: 'header text...',
+          title: 'title ...', 
+          description: 'description ...',
+          img: './img/fouthpic.jpg',
+          maps: 'Address'
+     },
+     {
+          id: 7,
+          headertilte: 'header title...', 
+          headersubtilte: 'header subtitle...', 
+          headetext: 'header text...',
+          title: 'title ...', 
+          description: 'description ...',
+          img: './img/thirdpic.jpg',
+          maps: 'Address'
+     },
+     {
+          id: 6,
           headertilte: 'header title...', 
           headersubtilte: 'header subtitle...', 
           headetext: 'header text...',
