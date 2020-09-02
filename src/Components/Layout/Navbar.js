@@ -8,6 +8,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 export default function Navbar() {
      return (
           <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+            {/* You can add here your Logo, otherwise there is link to official React Web */}
           {/* <Link className="navbar-brand text-light" to="#"><i className="fab fa-react"></i></Link> */}
             <a className="navbar-brand text-light" href="https://reactjs.org/" target="_blank">
               <img src='favicon.ico'/>
@@ -19,15 +20,15 @@ export default function Navbar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav m-auto">
               <li className="nav-item active">
-                <Link to='/' className="nav-link text-light text-uppercase ml-5">
+                <Link to='/' className="nav-link text-light text-uppercase ml-5 btn btn-dark">
                      Home&nbsp;<i className="fas fa-home"></i> 
                 <span className="sr-only">(current)</span></Link>
               </li>
               <li className="nav-item active">
-                <Link to='/news' className="nav-link text-light text-uppercase ml-5">News <span className="sr-only">(current)</span></Link>
+                <Link to='/news' className="nav-link text-light text-uppercase ml-5 btn btn-dark">News <span className="sr-only">(current)</span></Link>
               </li>
               <li className="nav-item active">
-                <Link to='/contact' className="nav-link text-light text-uppercase ml-5" >Contact Us <span className="sr-only">(current)</span></Link>
+                <Link to='/contact' className="nav-link text-light text-uppercase ml-5 btn btn-dark" >Contact Us <span className="sr-only">(current)</span></Link>
               </li>
               
             </ul>

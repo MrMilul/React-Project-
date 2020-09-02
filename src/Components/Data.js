@@ -6,7 +6,7 @@ export const placeInfo = [
           headetext: 'header text 1...',
           title: 'title1 .', 
           description: 'description ...',
-          img: 'project1/src/Components/img/firstavatar.png',
+          img: './img/firstpic.jpg',
           maps: 'Address'
      },
      {
@@ -40,23 +40,23 @@ export const placeInfo = [
           maps: 'Address'
      },
      {
-          id: 7,
+          id: 5,
           headertilte: 'header title5...', 
           headersubtilte: 'header subtitle5...', 
           headetext: 'header text5...',
           title: 'title5 ...', 
           description: 'description ...',
-          img: './img/thirdpic.jpg',
+          img: './img/firstpic.jpg',
           maps: 'Address'
      },
      {
           id: 6,
-          headertilte: 'header title5...', 
-          headersubtilte: 'header subtitle5...', 
-          headetext: 'header text5...',
-          title: 'title 5...', 
+          headertilte: 'header title6...', 
+          headersubtilte: 'header subtitle6...', 
+          headetext: 'header text6...',
+          title: 'title 6...', 
           description: 'description ...',
-          img: './img/fouthpic.jpg',
+          img: './img/secondpic.jpg',
           maps: 'Address'
      },
 ]
