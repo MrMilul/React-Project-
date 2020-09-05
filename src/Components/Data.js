@@ -69,7 +69,7 @@ export const detailInfo = {
      title: 'title ...', 
      description: "A museum (/mjuːˈziːəm/ mew-ZEE-əm; plural museums or, rarely, musea) is an institution that cares for (conserves) a collection of artifacts and other objects of artistic, cultural, historical, or scientific importance. Many public museums make these items available for public viewing through exhibits that may be permanent or temporary.[1] The largest museums are located in major cities throughout the world, while thousands of local museums exist in smaller cities, towns, and rural areas. Museums have varying aims, ranging from serving researchers and specialists to serving the general public. The goal of serving researchers is increasingly shifting to serving the general public.There are many types of museums, including art museums, natural history museums, science museums, war museums, and children's museums. Amongst the world's largest and most visited museums are the Louvre in Paris, the National Museum of China in Beijing, the Smithsonian Institution in Washington, D.C., the British Museum and National Gallery in London, the Metropolitan Museum of Art in New York City and Vatican Museums in Vatican City. According to the International Council of Museums, there are more than 55,000 museums in 202 countries",
      img: './img/secondpic.jpg',
-     maps: 'Address'
+     maps: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11132.898653233357!2d22.25975978844781!3d60.44460415940769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468c76ffadaf1f67%3A0xa14907f7da5bbc62!2sEerikinkatu%2031-33%2C%2020100%20Turku!5e0!3m2!1sen!2sfi!4v1599312192319!5m2!1sen!2sfi'
 }
 
 export const news = [
