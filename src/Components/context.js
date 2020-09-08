@@ -10,7 +10,7 @@ class InfoProvider extends Component {
                info: placeInfo, 
                news: news,
                details: detailInfo,
-               review: reviews,
+               reviews: reviews,
           }
      }
      render() {
@@ -19,7 +19,7 @@ class InfoProvider extends Component {
                     info: this.state.info, 
                     news: this.state.news,
                     details: this.state.details,
-                    review: this.state.review
+                    reviews: this.state.reviews
                     }}>
                     {this.props.children}
                </InfoContext.Provider>

@@ -100,24 +100,24 @@ export const reviews = [
           id:1,
           name: 'first Person', 
           avatar: './img/firstavatar.png',
-          comment: 'first person comment'
+          commend: 'first person comment'
      },
      {
           id:2,
           name: 'second Person', 
-          avatar: './img/firstavatar.png',
-          comment: 'second person comment'
+          avatar: './img/secondavatar.png',
+          commend: 'second person comment'
      },
      {
           id:3,
           name: 'third Person', 
-          avatar: './img/firstavatar.png',
-          comment: 'third person comment'
+          avatar: './img/thirdavatar.jpg',
+          commend: 'third person comment'
      },
      {
           id:4,
           name: 'fourth Person', 
           avatar: './img/firstavatar.png',
-          comment: 'fourth person comment'
+          commend: 'fourth person comment'
      },
 ]
