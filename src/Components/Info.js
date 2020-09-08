@@ -25,12 +25,16 @@ export default class Info extends Component {
                                 <p className="card-text">
                                    {headetext}
                                 </p>
-                                <Link to ='/details' className="btn btn-outline-primary">More Detail</Link>
+                              <Link 
+                                   onClick = {()=>value.handleDetail(id)}
+                                   to ='/details' 
+                                   className="btn btn-outline-primary">
+                                   More Detail
+                              </Link>
                            </div>
                       </div>
                       </div>
-                      )
-                 
+                      )                 
             }}
                </InfoConsumer>
           )
