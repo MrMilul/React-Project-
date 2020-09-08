@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 
-import {InfoConsumer} from '../context'
+import {InfoConsumer} from '../context';
+
+import Review from './Review'
 
 export default class Details extends Component {
      render() {
           const mystyle = {
                backgroundImage: 'linear-gradient(to bottom, rgba(0,0,0,0.3) , white)',
           };
-         
           return (
                <InfoConsumer>
                     {value => {
@@ -67,15 +68,17 @@ export default class Details extends Component {
                                         </div>
                                    </div>
                                    <div className='collapse' id='review'>
-                                       
+                                        <Review/>
                                    </div>
                                  
-                                   <div id="map-container-google-1" class="z-depth-1-half map-container collapse justify-content-center">
+                                   <div id="map-container-google-1" className="collapse">
                                         <iframe src={maps} style={{width:"100%",
                                          height:"30rem", 
                                          border:"0", 
                                          }}></iframe>
+                                         
                                    </div>
+                                  
 
                                    </div>
                               </>
